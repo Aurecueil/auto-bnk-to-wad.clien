@@ -1,3 +1,6 @@
+in dostuff.py on line 89, put path to wad-make.exe from cslol tools
+
+
 in folder "converter" place "{sth}_audio.bnk" file
 
 in "input" folder edit map.txt as follows:

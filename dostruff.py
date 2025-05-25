@@ -86,7 +86,7 @@ def copy_wpk_to_output(output_wpk, directory, filename):
 
 def run_wad_make(directory):
     first_folder = os.path.abspath(directory.split("\\")[0])
-    subprocess.run(["C:/Users/Aurecueil/Documents/.cslol/cslol-tools/wad-make.exe", first_folder], shell=True)
+    subprocess.run(["REPLACE WITH wad-make.exe path", first_folder], shell=True)
     return f"{first_folder}.wad.client"
 
 def move_wad_file(wad_file, directory, set_number):
